@@ -11,7 +11,7 @@ document.querySelectorAll(".buttonbox").forEach((cell) => {
 		setTile(cell.id);
 		winCheck(gameState);
 		console.log(gameState);
-		restart(gameState);
+		fullBoard(gameState);
 	});
 });
 

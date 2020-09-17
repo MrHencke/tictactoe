@@ -28,28 +28,26 @@ body {
 	color: rgb(24, 21, 21);
 	animation: fadeIn 2s;
 	outline: none;
+	text-align: top;
 }
 
 .xBox {
 	background: linear-gradient(to bottom, #fd0000, #b0e61e);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: fadeIn 2s;
-	font-size: 199px;
+	font-size: 180px;
+	text-align: center;
+	justify-content: top;
+
 }
 
 .oBox {
 	background: linear-gradient(to bottom, #1100fd, #1fc896);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: fadeIn 2s;
-	font-size: 199px;
+	font-size: 180px;
+	text-align: center;
+	justify-content: top;
 }
 
 @keyframes fadeIn {
