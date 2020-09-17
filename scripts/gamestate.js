@@ -1,4 +1,5 @@
-const gamelogic = require("./gamelogic.js");
+import gamelogic from "./gamelogic";
+//import { initializeGame, setTile, winCheck, restart } from "./gamelogic";
 
 let gameState;
 var player1;
