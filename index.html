@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="./icon.ico">
+</head>
+
+<body>
+  <div class='top'>
+    <h1 id=title></h1>
+    <b id=turn>Its player 1's turn!</b><br>
+  </div>
+  <div class="game-board">
+    <input class="buttonbox" type="button" id="0" value="Boks1" />
+    <input class="buttonbox" type="button" id="1" value="Boks2" />
+    <input class="buttonbox" type="button" id="2" value="Boks3" />
+    <input class="buttonbox" type="button" id="3" value="Boks4" />
+    <input class="buttonbox" type="button" id="4" value="Boks5" />
+    <input class="buttonbox" type="button" id="5" value="Boks6" />
+    <input class="buttonbox" type="button" id="6" value="Boks7" />
+    <input class="buttonbox" type="button" id="7" value="Boks8" />
+    <input class="buttonbox" type="button" id="8" value="Boks9" />
+  </div>
+  <div class="score">
+    <p id="score1"></p>
+    <p id="score2"></p>
+  </div>
+  <script src="./scripts/gamestate.js"></script>
+</body>
+
+</html>

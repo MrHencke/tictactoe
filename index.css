@@ -1,0 +1,75 @@
+.game-board {
+	display: grid;
+	grid-template-rows: 200px 200px 200px;
+	grid-template-columns: 200px 200px 200px;
+}
+
+.top {
+	text-align: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+	background: linear-gradient(to bottom, #7927b2, #fb3182);
+}
+
+.buttonbox {
+	background: rgb(109, 89, 89);
+	border: 2px solid rgb(2, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(24, 21, 21);
+	animation: fadeIn 2s;
+	outline: none;
+}
+
+.xBox {
+	background: linear-gradient(to bottom, #fd0000, #b0e61e);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: fadeIn 2s;
+	font-size: 199px;
+}
+
+.oBox {
+	background: linear-gradient(to bottom, #1100fd, #1fc896);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: fadeIn 2s;
+	font-size: 199px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+}
+
+.score {
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+}
+
+#score1 {
+	float: left;
+	position: relative;
+}
+
+#score2 {
+	float: right;
+	position: relative;
+}
